@@ -21,6 +21,8 @@ x
 
 `cd list-api && docker-compose build && docker-compose up && cp .env.example .env && php artisan migrate && php artisan storage:link`
 
+- Configurar no .env as credenciais de envio de Email (ex: Mailtrap)
+
 #### Setup Front
 
 `cd list-front && docker-compose build && docker-compose up`
